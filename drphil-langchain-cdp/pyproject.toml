@@ -13,8 +13,8 @@ langchain-openai = "^0.2.4"
 langgraph = "^0.2.39"
 langchain-community = "^0.3.11"
 dashscope = "^1.23.1"
-coinbase-agentkit = { path = "../../../python/coinbase-agentkit", develop = true }
-coinbase-agentkit-langchain = { path = "../../../python/framework-extensions/langchain", develop = true }
+coinbase-agentkit = { path = "/home/bq/cdp-agentkit/python/coinbase-agentkit", develop = true }
+coinbase-agentkit-langchain = { path = "/home/bq/cdp-agentkit/python/framework-extensions/langchain", develop = true }
 
 [build-system]
 requires = ["poetry-core"]

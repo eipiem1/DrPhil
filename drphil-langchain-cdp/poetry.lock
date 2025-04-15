@@ -794,7 +794,7 @@ web3 = "^7.6.0"
 
 [package.source]
 type = "directory"
-url = "../../coinbase-agentkit"
+url = "../../../cdp-agentkit/python/coinbase-agentkit"
 
 [[package]]
 name = "coinbase-agentkit-langchain"
@@ -813,7 +813,7 @@ python-dotenv = "^1.0.1"
 
 [package.source]
 type = "directory"
-url = "../../framework-extensions/langchain"
+url = "../../../cdp-agentkit/python/framework-extensions/langchain"
 
 [[package]]
 name = "coincurve"
@@ -1468,7 +1468,7 @@ description = "Lightweight in-process concurrent programming"
 optional = false
 python-versions = ">=3.7"
 groups = ["main"]
-markers = "(platform_machine == \"aarch64\" or platform_machine == \"ppc64le\" or platform_machine == \"x86_64\" or platform_machine == \"amd64\" or platform_machine == \"AMD64\" or platform_machine == \"win32\" or platform_machine == \"WIN32\") and python_version < \"3.14\""
+markers = "python_version < \"3.14\" and (platform_machine == \"aarch64\" or platform_machine == \"ppc64le\" or platform_machine == \"x86_64\" or platform_machine == \"amd64\" or platform_machine == \"AMD64\" or platform_machine == \"win32\" or platform_machine == \"WIN32\")"
 files = [
     {file = "greenlet-3.1.1-cp310-cp310-macosx_11_0_universal2.whl", hash = "sha256:0bbae94a29c9e5c7e4a2b7f0aae5c17e8e90acbfd3bf6270eeba60c39fce3563"},
     {file = "greenlet-3.1.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0fde093fb93f35ca72a556cf72c92ea3ebfda3d79fc35bb19fbe685853869a83"},
@@ -3782,4 +3782,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "011c72f13583f883678fd05eb424403b5d45f7bff602af0c7eecd47fabcaa3f9"
+content-hash = "af1e596ba74e55e5cb65a9e50ae287c8340db52510c5e542c6292ffa86a74002"
